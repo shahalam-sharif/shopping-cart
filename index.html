@@ -84,9 +84,9 @@
 
       const plusPhoneBtn = document.getElementById("plPhone");
       plusPhoneBtn.addEventListener("click", function(){
-            const countPhone = document.getElementById("countPhone").value++;
+            const countPhone = document.getElementById("countPhone").value;
             const amountPhoneNumber = parseFloat(countPhone);
-            const updatePhoneQuantity = amountPhoneNumber;
+            const updatePhoneQuantity = amountPhoneNumber + 1;
 
             document.getElementById("countPhone").value = updatePhoneQuantity;
 
@@ -101,9 +101,9 @@
 
       const plusCoverBtn = document.getElementById("plCover");
       plusCoverBtn.addEventListener("click", function(){
-            const countCover = document.getElementById("countCover").value++;
+            const countCover = document.getElementById("countCover").value;
             const amountCoverNumber = parseFloat(countCover);
-            const updateCoverQuantity = amountCoverNumber;
+            const updateCoverQuantity = amountCoverNumber + 1;
 
             document.getElementById("countCover").value = updateCoverQuantity;
 
@@ -118,9 +118,9 @@
 
       const minusPhoneBtn = document.getElementById("miPhone");
       minusPhoneBtn.addEventListener("click", function(){
-            const countPhone = document.getElementById("countPhone").value--;
+            const countPhone = document.getElementById("countPhone").value;
             const amountPhoneNumber = parseFloat(countPhone);
-            const updatePhoneQuantity = amountPhoneNumber ;
+            const updatePhoneQuantity = amountPhoneNumber - 1;
 
             document.getElementById("countPhone").value = updatePhoneQuantity;
 
@@ -135,9 +135,9 @@
 
       const minusCoverBtn = document.getElementById("miCover");
       minusCoverBtn.addEventListener("click", function(){
-            const countCover = document.getElementById("countCover").value--;
+            const countCover = document.getElementById("countCover").value;
             const amountCoverNumber = parseFloat(countCover);
-            const updateCoverQuantity = amountCoverNumber;
+            const updateCoverQuantity = amountCoverNumber - 1;
 
             document.getElementById("countCover").value = updateCoverQuantity;
 
